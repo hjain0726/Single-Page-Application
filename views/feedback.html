@@ -1,0 +1,39 @@
+<br>
+<h2>Feedback</h2>
+<br>
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <div ng-show="reg.uname.$invalid && reg.uname.$touched && reg.uname.$error.required" class="alert alert-warning" role="alert">
+            <p>Name is required</p>
+        </div>
+        <div ng-show="reg.uname.$invalid && reg.uname.$touched && reg.uname.$error.pattern" class="alert alert-warning" role="alert">
+            <p>Atleast 5-10 characters required</p>
+        </div>
+        <div ng-show="reg.email.$invalid && reg.email.$touched && reg.email.$error.required" class="alert alert-warning" role="alert">
+            <p>Email is required</p>
+        </div>
+        <div ng-show="reg.email.$invalid && reg.email.$touched && reg.email.$error.email" class="alert alert-warning" role="alert">
+            <p>Invalid email</p>
+        </div>
+        <form name="reg" ng-submit="showform(reg.$valid)" novalidate>
+            <div class="form-group">
+                <input type="text" name="uname" ng-model="obj.uname" class="form-control" pattern="[a-z]{5,10}" placeholder="Enter Your Name" required />
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" ng-model="obj.email" class="form-control" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+                <input type="text" name="feedback" ng-model="obj.feedback" class="form-control" placeholder="feedback" required/>
+            </div>
+            <button class="btn btn-primary">ADD</button>
+        </form>
+        <br>
+        <div>
+            <h3>{{head}}</h3>
+            <p>{{name}}</p>
+            <p>{{email}}</p>
+            <p>{{feedback}}</p>
+        </div>
+        
+    </div>
+</div>
