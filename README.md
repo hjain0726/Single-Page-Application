@@ -6,11 +6,11 @@ A spa using form validation , routes , prettyurls , passing params , dynamic loa
 
 ![spa1](https://user-images.githubusercontent.com/31067957/42573724-826f2fd0-853a-11e8-9494-801533d928e6.png)
 
-2) About us
+2)About us
 
-![spa2](https://user-images.githubusercontent.com/31067957/42573741-8d3e02ec-853a-11e8-8e6e-040984e20c6e.png)
+![spa8](https://user-images.githubusercontent.com/31067957/42574806-f3026aa8-853c-11e8-8de9-9d0e6d9bf87a.png)
 
-3)news click on show news button
+3)News click on show news button
 
 ![spa3](https://user-images.githubusercontent.com/31067957/42573749-95d4438a-853a-11e8-8aff-2d955f0dd4f5.png)
 
